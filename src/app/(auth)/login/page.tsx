@@ -9,7 +9,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { signIn } from "@/lib/auth"
-export default function LoginPage() {
+export default async function LoginPage() {
+  
   return (
     <Card className="w-full max-w-sm  ">
       <CardHeader>
