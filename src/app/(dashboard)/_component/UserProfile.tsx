@@ -1,7 +1,7 @@
 import React from "react";
 import UserEditProfile from "./UserEditProfile";
 import { auth } from "@/lib/auth";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger} from "@/components/ui/dialog";
 
 const UserProfile = async () => {
   const session = await auth();
