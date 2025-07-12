@@ -78,10 +78,7 @@ interface IUserProfileDropdown {
   isArrowUp: boolean;
 }
 
-export default async function UserProfileDropDown({
-  isFullName,
-  isArrowUp,
-}: IUserProfileDropdown) {
+export default async function UserProfileDropDown() {
   const session = await auth();
   return (
     <DropdownMenu>
