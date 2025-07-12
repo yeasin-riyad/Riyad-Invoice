@@ -12,9 +12,9 @@ export default function DashboardLayout({children}:{children:React.ReactNode}){
              <SidebarProvider>
             {/* Sidebar */}
             <DashboardSidebar>
-                <UserProfileDropdown/>
+                <UserProfileDropdown isFullName={true} isArrowUp={true}/>
                 </DashboardSidebar>
-             <main>
+             <main className="w-full relative">
                 <DashboardHeader/>
           
             {children}

@@ -17,8 +17,8 @@ export default async function DashboardHeader(){
 
             <div className="ml-auto w-fit">
                 <UserProfileDropDown
-                    // isArrowUp={false}
-                    // isFullName={false}
+                    isArrowUp={false}
+                    isFullName={false}
                 />
             </div>
        </header>
