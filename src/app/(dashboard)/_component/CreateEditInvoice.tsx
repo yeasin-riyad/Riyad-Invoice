@@ -193,7 +193,7 @@ export default function CreateEditInvoice({
 
   const totalAmountInCurrencyFormat = new Intl.NumberFormat("en-us", {
     style: "currency",
-    currency: currency || watch("currency") || "INR",
+    currency: currency || watch("currency") || "BDT",
   }).format(totalAmount);
 
   return (
