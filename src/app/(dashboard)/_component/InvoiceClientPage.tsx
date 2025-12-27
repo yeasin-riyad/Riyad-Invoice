@@ -78,7 +78,7 @@ export default function InvoiceClientPage({userId, currency }: IInvoiceClientPag
       const responsedata = await response.json()
 
       if(response.status === 200){
-        toast.success(responsedata.message)
+        toast.success("Email send successfully");
       }
     } catch (error) {
       console.log(error)
