@@ -9,7 +9,7 @@ import { InvoiceTemplate } from "../../../../components/template/SendInvoiceEmai
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: Promise<{ invoiceId: string; userId: string }> }
+  { params }: { params: Promise<{ invoiceId: string}> }
 ) {
   try {
     const session = await auth();
