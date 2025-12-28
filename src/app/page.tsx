@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <main className="relative lg:min-h-dvh pb-10">
-        <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
+        <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#ff7e00_400%)]"></div>
 
         <header className="h-14 flex items-center backdrop-blur-2xl px-4">
           <div className="container mx-auto flex items-center justify-between gap-4">
